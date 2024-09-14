@@ -22,48 +22,48 @@ hometown <- 'Freeport'
 2. Assign your name to the variable `my_name`
 
 ```{r}
-
+my_name <- 'Manuel Acuna Jr'
 ```
 
 3. Assign your height (in inches) to a variable `my_height`
 
 ```{r}
-
+my_name <- 67
 ```
 
 4. Create a variable `puppies` equal to the number of puppies you'd like to have
 
 ```{r}
-
+puppies <- 1
 ```
 
 5. Create a variable `puppy_price`, which is how much you think a puppy costs
 
 ```{r}
-
+puppy_price <- 100
 ```
 
 6. Create a variable `total_cost` that has the total cost of all of your puppies (use the variables you created in the previous questions)
 
 ```{r}
-
+total_cost <- puppies * puppy_price
 ```
 
 7. Create a boolean variable `too_expensive`, that is set to TRUE if the cost is greater than $1,000 (use your variables created in the previous questions)
 
 ```{r}
-
+too_expensive <- total_cost > 1000
 ```
 
 8. Create a variable `max_puppies`, which is the number of puppies you can afford for $1,000
 
 ```{r}
-
+max_puppies <- 1000 / total_cost
 ```
 
 9.  We can't have partial puppies. Round `max_puppies` down to a whole number (you might use a function called `floor`, type `?floor` in your R console for more information), save that as a new variable `actual_max_puppies`
 
 ```{r}
-
+actual_max_puppies <- floor(max_puppies)
 ```
 

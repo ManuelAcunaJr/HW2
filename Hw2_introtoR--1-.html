@@ -366,27 +366,48 @@ consider your hometown as a string.</li>
 </ol>
 <pre class="r"><code>hometown &lt;- &#39;Freeport&#39;</code></pre>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Assign your name to the variable <code>my_name</code></p></li>
-<li><p>Assign your height (in inches) to a variable
-<code>my_height</code></p></li>
-<li><p>Create a variable <code>puppies</code> equal to the number of
-puppies you’d like to have</p></li>
-<li><p>Create a variable <code>puppy_price</code>, which is how much you
-think a puppy costs</p></li>
-<li><p>Create a variable <code>total_cost</code> that has the total cost
-of all of your puppies (use the variables you created in the previous
-questions)</p></li>
-<li><p>Create a boolean variable <code>too_expensive</code>, that is set
-to TRUE if the cost is greater than $1,000 (use your variables created
-in the previous questions)</p></li>
-<li><p>Create a variable <code>max_puppies</code>, which is the number
-of puppies you can afford for $1,000</p></li>
-<li><p>We can’t have partial puppies. Round <code>max_puppies</code>
-down to a whole number (you might use a function called
-<code>floor</code>, type <code>?floor</code> in your R console for more
-information), save that as a new variable
-<code>actual_max_puppies</code></p></li>
+<li>Assign your name to the variable <code>my_name</code></li>
 </ol>
+<pre class="r"><code>my_name &lt;- &#39;Manuel Acuna Jr&#39;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Assign your height (in inches) to a variable
+<code>my_height</code></li>
+</ol>
+<pre class="r"><code>my_name &lt;- 67</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Create a variable <code>puppies</code> equal to the number of
+puppies you’d like to have</li>
+</ol>
+<pre class="r"><code>puppies &lt;- 1</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Create a variable <code>puppy_price</code>, which is how much you
+think a puppy costs</li>
+</ol>
+<pre class="r"><code>puppy_price &lt;- 100</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Create a variable <code>total_cost</code> that has the total cost of
+all of your puppies (use the variables you created in the previous
+questions)</li>
+</ol>
+<pre class="r"><code>total_cost &lt;- puppies * puppy_price</code></pre>
+<ol start="7" style="list-style-type: decimal">
+<li>Create a boolean variable <code>too_expensive</code>, that is set to
+TRUE if the cost is greater than $1,000 (use your variables created in
+the previous questions)</li>
+</ol>
+<pre class="r"><code>too_expensive &lt;- total_cost &gt; 1000</code></pre>
+<ol start="8" style="list-style-type: decimal">
+<li>Create a variable <code>max_puppies</code>, which is the number of
+puppies you can afford for $1,000</li>
+</ol>
+<pre class="r"><code>max_puppies &lt;- 1000 / total_cost</code></pre>
+<ol start="9" style="list-style-type: decimal">
+<li>We can’t have partial puppies. Round <code>max_puppies</code> down
+to a whole number (you might use a function called <code>floor</code>,
+type <code>?floor</code> in your R console for more information), save
+that as a new variable <code>actual_max_puppies</code></li>
+</ol>
+<pre class="r"><code>actual_max_puppies &lt;- floor(max_puppies)</code></pre>
 
 
 
